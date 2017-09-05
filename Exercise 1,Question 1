@@ -1,0 +1,13 @@
+install.packages("data.table")#exercise 1
+
+
+
+x<-16
+
+d(x)#creating a function with charectar d
+{
+  if(x<10)
+    print(x)
+  else
+    print(10)
+}
