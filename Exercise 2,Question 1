@@ -1,0 +1,6 @@
+library(readr)
+Mortalitydata<-read_csv("~/Downloads/DP_LIVE_05092017231138433.csv")
+View(Mortalitydata)
+x<-Mortalitydata
+x$`Flag Codes`=NULL
+View(x)
