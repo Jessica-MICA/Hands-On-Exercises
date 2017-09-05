@@ -1,0 +1,6 @@
+install.packages("rvest")
+library("rvest")
+a<-read_html("http://www.worldatlas.com/articles/the-biggest-cities-in-india.html")
+b<-html_node(x,"tables")
+c<-html_table(y,fill=TRUE)
+z<-as.data.frame(c)
