@@ -1,0 +1,6 @@
+library(rvest)
+emp_df <- as.data.frame(Emp)
+dept_df <- as.data.frame(Dept)
+final_df <- merge(emp_df,dept_df)
+x <- aggregate(final_df[,7],list(final_df$LOC),mean)
+x
