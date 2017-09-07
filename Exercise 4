@@ -1,5 +1,5 @@
 getwd()
-setwd("/Users/User/Desktop/YYYYYY/AMMA 2017/Data/data_2017")
+setwd("C://YYYYYY/AMMA 2017/Data/data_2017")
 d1=read.table("student-mat.csv",sep=";",header=TRUE)
 d2=read.table("student-por.csv",sep=";",header=TRUE)
 
